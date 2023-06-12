@@ -14,7 +14,7 @@ module.exports = {
 			host: "107.189.2.120",
 			ref: "origin/master",
 			repo: "git@github.com:VadimAlexeev0/arkiv-backend.git",
-			path: "/arkiv-listener",
+			path: "/arkiv-backend",
 			"pre-setup": "npm install -g ts-node",
 			"pre-deploy-local": "git fetch origin main",
 			"post-deploy":
