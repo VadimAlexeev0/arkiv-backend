@@ -14,7 +14,7 @@ module.exports = {
 			host: "107.189.2.120",
 			ref: "origin/master",
 			repo: "git@github.com:VadimAlexeev0/arkiv-backend.git",
-			path: "/arkiv-backend",
+			path: "/arkiv-listener",
 			"pre-deploy-local": "git fetch origin main",
 			"post-deploy":
 				//"npm install && pm2 reload ecosystem.config.js --env production",
